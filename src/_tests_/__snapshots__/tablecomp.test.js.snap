@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with empty value 1`] = `
+<div
+  className="dataTables_wrapper dt-bootstrap4"
+  data-test="datatable"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12 col-md-6"
+      data-test="datatable-entries"
+    >
+      <div
+        className="dataTables_length bs-select"
+        data-test="datatable-select"
+      >
+        <label>
+          Show entries
+          <select
+            className="custom-select custom-select-sm form-control form-control-sm"
+            onChange={[Function]}
+            style={
+              Object {
+                "marginLeft": ".5rem",
+              }
+            }
+            value={10}
+          >
+            <option
+              value={10}
+            >
+              10
+            </option>
+            <option
+              value={20}
+            >
+              20
+            </option>
+            <option
+              value={50}
+            >
+              50
+            </option>
+            <option
+              value={100}
+            >
+              100
+            </option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div
+      className="col-sm-12 col-md-6"
+      data-test="datatable-search"
+    >
+      <div
+        className="dataTables_filter"
+        data-test="datatable-input"
+      >
+        <label>
+          Search
+          <input
+            className="form-control form-control-sm"
+            onChange={[Function]}
+            placeholder="Search"
+            type="search"
+            value=""
+          />
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12"
+      data-test="datatable-table"
+    >
+      <div
+        className=""
+        data-test="table"
+        style={
+          Object {
+            "maxHeight": undefined,
+          }
+        }
+      >
+        <table
+          className="table table-bordered table-sm table-striped dataTable"
+          entries={10}
+        >
+          <thead
+            data-test="datatable-head"
+          >
+            <tr>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                id
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                First name
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                Last Name
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                Email
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                Created
+              </th>
+              <th
+                className="sorting"
+                onClick={[Function]}
+              >
+                Orders
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            data-test="table-body"
+          >
+            <tr>
+              <td
+                colSpan={6}
+              >
+                No matching records found
+              </td>
+            </tr>
+          </tbody>
+          <thead
+            data-test="table-foot"
+          >
+            <tr>
+              <th>
+                id
+              </th>
+              <th>
+                First name
+              </th>
+              <th>
+                Last Name
+              </th>
+              <th>
+                Email
+              </th>
+              <th>
+                Created
+              </th>
+              <th>
+                Orders
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12 col-md-5"
+      data-test="datatable-info"
+    >
+      <div
+        aria-live="polite"
+        className="dataTables_info"
+        role="status"
+      >
+        Showing 0 entries
+      </div>
+    </div>
+    <div
+      className="col-sm-12 col-md-7"
+      data-test="datatable-pagination"
+    >
+      <div
+        className="dataTables_paginate"
+      >
+        <ul
+          className="pagination"
+          data-test="pagination"
+        >
+          <li
+            className="disabled page-item"
+            data-test="page-item"
+          >
+            <a
+              aria-label="Previous"
+              className="page-link page-link"
+              data-test="page-link"
+              onClick={[Function]}
+            >
+              <span>
+                Previous
+              </span>
+            </a>
+          </li>
+          <li
+            className="active page-item"
+            data-test="page-item"
+          >
+            <a
+              className="page-link page-link"
+              data-test="page-link"
+              onClick={[Function]}
+            >
+              1
+              <span
+                className="sr-only"
+              >
+                (current)
+              </span>
+            </a>
+          </li>
+          <li
+            className="disabled page-item"
+            data-test="page-item"
+          >
+            <a
+              aria-label="Next"
+              className="page-link page-link"
+              data-test="page-link"
+              onClick={[Function]}
+            >
+              <span>
+                Next
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
